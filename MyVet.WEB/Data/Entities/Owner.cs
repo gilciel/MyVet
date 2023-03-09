@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MyVet.Web.Data.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace MyVet.WEB.Data.Entities
 {
@@ -35,5 +36,6 @@ namespace MyVet.WEB.Data.Entities
       public string FullName => $"{FirstName} {LastName}";
 
       public string FullNameWithDocument => $"{FirstName} {LastName} - {Document}";
+
    }
 }
